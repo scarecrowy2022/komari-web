@@ -454,9 +454,9 @@ const AdminPanelBar = ({ content, onboardingReady = false }: AdminPanelBarProps)
               >
                 <TablerMenu2 />
               </IconButton>
-              <a href="/" target="_blank" rel="noopener noreferrer">
-                <label className="text-xl font-bold">Komari</label>
-              </a>
+           <Link to="/">
+              <label className="text-xl font-bold">Komari</label>
+           </Link>
               {updateAvailable && releasesSince.length > 0 && (
                 <Tips
                   mode="dialog"
